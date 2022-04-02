@@ -1,0 +1,28 @@
+/* universal selectors */
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* element selectors */
+body {
+  background-color: #fdf5df;
+}
+
+footer {
+  background-color: #f92c85;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  text-align: center;
+}
+
+/* class selectors */
+.header {
+  position: fixed;
+  top: 10px;
+  background-color: #5ebec4;
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  align-items: center;
+}
